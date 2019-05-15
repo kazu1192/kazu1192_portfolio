@@ -2,8 +2,7 @@
   <div id="app">
     <Header/>
     <About/>
-    <section class="skills" id="skills">
-    </section>
+    <Skills/>
     <section class="contact" id="contact">
     </section>
     <footer class="footer">
@@ -14,11 +13,13 @@
 <script>
 import Header from './components/Header.vue'
 import About from './components/About.vue'
+import Skills from './components/Skills.vue'
 
 export default {
   components: { 
     Header,
-    About
+    About,
+    Skills,
   }
 };
 </script>
