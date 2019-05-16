@@ -1,8 +1,7 @@
 <template>
   <header class="header">
-    <p class="site-title-sub">Web designer's portfolio</p>
-    <h1 class="site-title">HI, MY NAME IS...</h1>
-    <p class="site-description">Check out some of my works.</p>
+    <h1 class="site-title">Kazuki's portfolio</h1>
+    <p class="site-title-sub">Web Engineer</p>
     <div class="buttons">
       <a class="button" href="#about">About</a>
       <a class="button" href="#skills">Skills</a>
@@ -16,7 +15,11 @@
 
 <style>
 .header {
-  padding: 170px 30px 80px;
+  padding: 170px 80px;
+}
+.site-title {
+  margin: 50px 0 40px;
+  font-size: 7.6rem;
 }
 .site-title-sub {
   margin: 0 0 30px;
@@ -32,30 +35,7 @@
   background-color: #fff;
   vertical-align: middle;
 }
-.site-title {
-  margin: 50px 0 40px;
-  font-size: 7.6rem;
-}
-.site-description {
-  margin-bottom: 50px;
-  color: #888;
-  font-size:1.6rem;
-}
-.button {
-  display: inline-block;
-  width: 200px;
-  padding: 20px;
-  border-radius: 4px;
-  background-color: #afa58d;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-size: 1.2rem;
-}
-.button:hover {
-  opacity: 0.9;
-}
-.buttons .button {
-  margin: 10px;
+.buttons {
+  padding-top: 80px;
 }
 </style>
