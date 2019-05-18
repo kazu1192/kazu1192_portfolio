@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-center back-dark">
+  <div class="flex-center">
     <div class="skills">
       <h2 class="heading">SKILLS</h2>
-      <p class="skills-text">使用可能な言語スキル</p>
+      <h3>使用可能な言語スキル</h3>
       <div class="skills-wrapper">
         <img src="@/assets/images/svg/ruby.svg" alt="Ruby">
         <img src="@/assets/images/svg/rails.svg" alt="Ruby on Rails">
@@ -30,17 +30,14 @@
 </script>
 
 <style>
-.back-dark {
-  background: #383634;
-}
-.skills-text {
-  font-size: 2.4rem;
+.skills {
+  background-color: #383634;
+  width: 60%;
 }
 .skills-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 50%;
   margin: 10px auto 0;
 }
 .skills-wrapper img {
@@ -53,8 +50,8 @@
     display: block;
   }
   .skills-wrapper img {
-    width: 20%;
-    height: auto;
+    width: auto;
+    height: 20%;
     margin: auto;
   }
 }

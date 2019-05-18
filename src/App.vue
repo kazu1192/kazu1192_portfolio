@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <About id="about"/>
+    <Works id="works"/>
     <Skills id="skills"/>
     <Contact id="contact"/>
     <Footer/>
@@ -34,7 +35,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: #151515;
+  background: #151515 url('../src/assets/images/image02.jpg') no-repeat fixed left bottom;
   color: #fff;
   text-align: center;
   font-size: 1.4rem;
@@ -44,7 +45,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 .heading {
   position: relative;

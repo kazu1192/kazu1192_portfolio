@@ -1,8 +1,8 @@
 <template>
   <div class="flex-center">
     <div class="header">
-      <p class="site-title-sub">Web Engineer</p>
       <h1 class="site-title">KAZUKI'S PORTFOLIO</h1>
+      <p class="site-title-sub">Web Engineer</p>
       <div class="buttons">
         <a class="button" href="#about">About</a>
         <a class="button" href="#skills">Skills</a>
@@ -16,24 +16,18 @@
 </script>
 
 <style>
-.site-title-sub {
-  margin: 0 0 30px;
-  letter-spacing: 1px;
-  font-size: 2.2rem;
-}
-.site-title-sub::before, 
-.site-title-sub::after {
-  content: '';
-  display: inline-block;
-  width: 140px;
-  height: 2px;
-  margin: 0 30px;
-  background-color: #fff;
-  vertical-align: middle;
+.header {
+  padding: 170px;
+  height: 80vh;
 }
 .site-title {
   margin: 50px 0 40px;
   font-size: 7.6rem;
+}
+.site-title-sub {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
 }
 .button {
   display: inline-block;
@@ -59,13 +53,7 @@
   .site-title-sub {
     font-size: 1.7rem;
   }
-  .site-title-sub::before, 
-  .site-title-sub::after {
-    display: block;
-    width: 80%;
-    margin: 10px auto;
-  }
-  .buttons .button {
+  .button {
     width: 30%;
     font-size: 1.5rem;
     margin: auto;
