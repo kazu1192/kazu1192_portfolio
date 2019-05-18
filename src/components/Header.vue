@@ -4,6 +4,7 @@
     <p>Web Engineer</p>
     <ol>
       <a href="#about">About</a>
+      <a href="#works">Works</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </ol>
