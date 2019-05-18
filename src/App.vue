@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <Header/>
-    <About/>
-    <Skills/>
-    <Contact/>
+    <About id="about"/>
+    <Skills id="skills"/>
+    <Contact id="contact"/>
     <Footer/>
   </div>
 </template>
@@ -40,6 +40,12 @@ body {
   font-size: 1.4rem;
   font-family: Raleway, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .heading {
   position: relative;
   display: inline-block;
@@ -59,20 +65,13 @@ body {
 .heading::before {
   bottom: 5px;
 }
-.button {
-  display: inline-block;
-  width: 200px;
-  padding: 20px;
-  border-radius: 4px;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-size: 2.2rem;
-}
-.button:hover {
-  opacity: 0.9;
-}
-.buttons .button {
-  margin: 10px;
+@media (max-width: 768px) {
+  body {
+    font-size: 1.3rem;
+  }
+  .heading {
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
 }
 </style>
