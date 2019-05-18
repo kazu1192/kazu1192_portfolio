@@ -19,8 +19,8 @@
   .contact {
     padding-bottom: 80px;
   }
-  .contact p {
-    font-size: 1.3rem;
+  p {
+    font-size: 1.1rem;
   }
 }
 </style>

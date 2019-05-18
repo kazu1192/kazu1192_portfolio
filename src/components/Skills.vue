@@ -29,10 +29,15 @@
 <script>
 </script>
 
-<style>
+<style scoped>
+img {
+  width: auto;
+  height: 80px;
+  margin: 16px;
+}
 .skills {
   background-color: #383634;
-  width: 60%;
+  width: 50%;
 }
 .skills-wrapper {
   display: flex;
@@ -40,19 +45,17 @@
   justify-content: center;
   margin: 10px auto 0;
 }
-.skills-wrapper img {
-  width: auto;
-  height: 80px;
-  margin: 16px;
-}
 @media (max-width: 768px) {
+  .skills {
+    width: 90%;
+  }
   .skills-wrapper {
     display: block;
   }
-  .skills-wrapper img {
+  img {
     width: auto;
-    height: 20%;
-    margin: auto;
+    height: 24px;
+    margin: 2px;
   }
 }
 </style>
